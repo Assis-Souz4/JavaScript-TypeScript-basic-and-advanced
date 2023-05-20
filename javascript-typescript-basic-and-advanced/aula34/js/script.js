@@ -1,0 +1,1 @@
+console.log(true && NaN && 'juh' && '0' &&"");//NaN
