@@ -17,10 +17,10 @@ for(let bgParagrafo of paragrafos){
   bgParagrafo.style.color = "red";
   titulo.style.color = "blue";
   titulo.style.backgroundColor = 'pink';
+  titulo.style.textAlign = 'center';
 }
 
-
-
+container.insertBefore(titulo, paragrafos[0]);
 
 // //selecionado o container
 // const container = document.querySelector('.container');

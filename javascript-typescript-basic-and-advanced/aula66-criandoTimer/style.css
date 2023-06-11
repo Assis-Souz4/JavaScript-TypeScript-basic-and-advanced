@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgrey;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.principal {
+  background-color: azure;
+  min-width: 30%;
+  height: 200px;
+  margin-top: 40px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 8px;
+}
+.titulo {
+  font-size: 2rem;
+}
+.contatdor {
+  font-size: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn,
+button {
+  padding: 2.5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.pausado {
+    color: red;
+}
